@@ -147,12 +147,6 @@ export default class App extends LitElement {
               </div>
               <div slot="title">Accounts</div>
             </igc-list-item>
-            <igc-list-item @click="${() => Router.go('/contacts')}">
-              <div slot="start">
-                <igc-avatar src="/src/assets/Contacts-Avatar-Icon.svg" shape="circle" class="avatar"></igc-avatar>
-              </div>
-              <div slot="title">Contacts</div>
-            </igc-list-item>
             <igc-list-item @click="${() => Router.go('/contracts')}">
               <div slot="start">
                 <igc-avatar src="/src/assets/Contracts-Avatar-Icon.svg" shape="circle" class="avatar"></igc-avatar>
